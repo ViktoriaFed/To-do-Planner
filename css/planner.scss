@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#icon {
+    margin: 0.5rem;
+    margin-right: 1rem;
+}
+
+.hero {
+    height: 40vh;
+    background-image: url(../images/fff.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    margin-bottom: 2rem
+};
+#sign {
+    margin-right: 0.5rem;
+};
+.deleteBtn {
+    background-color: #ffb3bf;
+    color: #000000;
+    margin-top: 1rem;
+    margin-left: 1rem
+};
+.doneBtn {
+    background-color: #b3ffd2;
+    margin-top: 1rem;
+    color: #000000;
+};
+
+#sorting {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 16px;
+    position: fixed;
+    right: 3rem;
+};
+.prioritySpan {
+    color: #000000;
+};
+
+
+// @media screen and (width <= 480px) { //?? messes up the bootstrap grid
+//     .content {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+// @media screen and (min-width: 481px) and (max-width: 768px){
+//     .content {
+//         grid-template-columns: repeat(2, 1fr);
+//     }   
+// }
+// @media screen and (min-width: 769px) {
+//     .content {
+//         grid-template-columns: repeat(2, 1fr);
+// }
+// }
